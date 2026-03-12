@@ -1,5 +1,5 @@
 {% set name = "tiatoolbox" %}
-{% set version = "1.6.0" %}
+{% set version = "2.0.0" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a775e8a0fd7e1a7cc39774314fd15c5531339c90fb0054d70d118ecd90872935
+  sha256: 7ae32e0d3b1f923e7d2d95480394724b1440c42350c29d3a5e78f6507561b90d
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - tiatoolbox=tiatoolbox.cli:main
