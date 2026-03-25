@@ -12,7 +12,7 @@ source:
   sha256: f309ff636479b69bb63a9d65a2ae6ac45c5baf08f2aa45ce07728ad61b8dc34a
 
 build:
-  number: 0
+  number: 1
 
   # ----- WINDOWS UTF‑8 FIX -----
   # Windows defaults to cp1252, causing setuptools metadata decode failures.
